@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  DreamCatcher
 //
 //  Created by Andrew  Nguyen on 7/1/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DetailViewController : UIViewController
+@property NSString *titleString;
+@property NSString *descriptionString;
 
 @end
-
